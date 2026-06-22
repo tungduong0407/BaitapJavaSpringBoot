@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>FirstWeb</artifactId>
+    <artifactId>StudentManagement</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>FirstWeb</name>
-    <description>FirstWeb</description>
+    <name>StudentManagement</name>
+    <description>StudentManagement</description>
     <url/>
     <licenses>
         <license/>
@@ -33,6 +33,18 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
